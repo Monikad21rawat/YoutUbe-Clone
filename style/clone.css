@@ -1,0 +1,160 @@
+body {
+    font-family: roboto, arial;
+    font-weight: 500;
+    padding-top:75px;
+    padding-left: 90px;
+    padding-right:18px;
+    background-color: rgba(239, 234, 234, 0.389);
+ }
+
+ 
+
+
+ .vedio-title {
+    width: 250px;
+    font-weight: 700;
+    
+ }
+
+
+ .image {
+    width: 100%;
+    
+   
+ }
+
+
+ .views {
+    margin-top: 0px;
+    font-size:13px;
+    color: rgb(47, 46, 46);
+ }
+
+ .author {
+    margin-bottom: 2px;
+    margin-top: 0px;
+    font-size:13px;
+    font-family: roboto,arial;
+    color: rgb(47, 46, 46);
+ }
+
+
+
+
+ .another-pro {
+    border-radius: 50px;
+    width: 40px;
+    
+
+ }
+ .edit{
+  margin-top:15px;
+ 
+
+ }
+
+ .grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    column-gap: 10px;
+
+ }
+
+ .grid-property {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 20px;
+
+}
+
+
+
+
+
+@media  (max-width:1091px){
+   .grid-property{
+      grid-template-columns: 1fr 1fr 1fr;
+   }
+}
+
+
+@media (max-width:772px){
+   .grid-property{
+      grid-template-columns: 1fr 1fr;
+   }
+}
+
+
+
+@media (min-width:2000px){
+   .grid-property{
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+   }
+}
+
+ .position-relative{
+   position: relative;
+ }
+ .position-absolute{
+   position:absolute;
+   bottom:12px;
+   right:5px;
+   font-size:small;
+   font-weight:700;
+   padding-top:4px;
+   padding-bottom: 4px;
+   padding-left: 3px;
+   padding-right: 3px;
+   background-color: black;
+   color:white;
+   font-family: roboto,arial;
+ }
+
+
+
+ .relative-div{
+   position:relative;
+   cursor:pointer;
+ 
+   
+ }
+
+ .flexbox{
+   position:absolute;
+   font-family: roboto,arial;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   justify-content: space-around;
+   padding: 7px;
+   border-radius: 5px;
+   width: 200px;
+   box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.5);
+   background-color: white;
+   opacity:0;
+   transition: opacity 0.5s;
+   pointer-events: none;
+
+ }
+
+ .relative-div:hover .flexbox{
+   opacity:1;
+ }
+
+ .img-div{
+   width:50px;
+   height:50px;
+   border-radius: 50px;
+ 
+ }
+
+ .author-name{
+   font-weight:bold;
+ }
+
+ .subs{
+   font-weight: 400;
+   margin-top: 3px;
+   font-size:small;
+ }
